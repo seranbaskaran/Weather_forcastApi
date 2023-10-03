@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <h1>Weather Report</h1>
+        <div>
+            <input type="text" id="location-input" placeholder="Enter a location">
+            <button id="get-weather-button">Get Weather</button>
+        </div>
+        <div id="weather-data">
+            <!-- Weather data will be displayed here -->
+        </div>
+        <div id="weather-icon">
+            <!-- Weather icon will be displayed here -->
+        </div>
+        <div id="additional-info">
+            <p>Humidity: <span id="humidity"></span></p>
+            <p>Dew Point: <span id="dew-point"></span></p>
+            <p>Visibility: <span id="visibility"></span></p>
+            <p>Wind Speed: <span id="wind-speed"></span></p>
+            <p>Date and Time: <span id="date-time"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

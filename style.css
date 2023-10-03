@@ -1,0 +1,49 @@
+
+.main {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#weather-data {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#weather-icon {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+#additional-info {
+    margin-top: 20px;
+}
+
+#additional-info span {
+    font-weight: bold;
+    color: #333;
+}
